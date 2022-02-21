@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aebea59cf2d311c4b8c0569db2232e6b, type: 3}
+  m_Name: ReactToBeeState
+  m_EditorClassIdentifier: 
+  actions: []
+  transitions:
+  - decision: {fileID: 11400000, guid: be48863bd75c40a498a4e4377c91b9e0, type: 2}
+    trueState: {fileID: 11400000, guid: 47526a0264750444ea5ddda4d2e467a7, type: 2}
+    falseState: {fileID: 11400000, guid: 4029ac5d4003ed94eb93e7bdbfd7abb6, type: 2}
+  sceneGizmoColor: {r: 0.5581261, g: 0.20665711, b: 0.764151, a: 1}
